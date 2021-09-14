@@ -10,6 +10,7 @@ public class App {
     {
         Scanner user_input = new Scanner(System.in);
         String noun, verb, adjective, adverb;
+        
         System.out.print("Enter a noun ");
         noun = user_input.next();
         System.out.print("Enter a verb ");
@@ -18,6 +19,7 @@ public class App {
         adjective = user_input.next();
         System.out.print("Enter a adverb ");
         adverb = user_input.next();
+        
         System.out.println(String.format("Do you %s her %s %s %s? you're a goofy guy.", verb, adjective, noun, adverb));
     }
 }
